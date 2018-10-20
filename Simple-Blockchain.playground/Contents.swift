@@ -3,10 +3,16 @@
 
 import Foundation
 
-var str = "Hello, I am demo structure of QuarkChain Network"
+func genrateBlock() {
+    var blockNumber: Int = 0
+    var hashValue: Double = 0.0
+    
+    for _ in 1...500 {
+        blockNumber += 1
+        hashValue += 0.1
+        print(blockNumber, hashValue)
+    }
+    
+}
 
-print(str)
-
-
-
-
+genrateBlock()
